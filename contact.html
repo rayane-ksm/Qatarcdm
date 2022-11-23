@@ -35,14 +35,24 @@
   </header>
 
   <main>
-    <div class="accueilstade">
-      <img src="img/stadeaccueil.jpg" alt="accueilstade" width="100%">
+   <div class="maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d923086.3367468781!2d50.657310764654!3d25.344290048600044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x1cfa88cf812b4032!2sQatar!5e0!3m2!1sfr!2sfr!4v1669211721394!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+   <form class="p-3">
+    <div class="mb-3">
+      <label for="exampleInputNom1" class="form-label">Nom</label>
+      <input type="Nom" class="form-control rounded" id="exampleInputNom1" aria-describedby="NomHelp">
     </div>
-    <div class="resume">
-      <p>Un incroyable défi de construction a eu lieu au Qatar ; la nation tout entière vien en effet d'accueillir la Coupe du monde de la FIFA 2022. C’est au total pas moins de 7 nouveaux stades qui ont été construits pour l’occasion, sans compter les rénovations importantes d’une première arène. Les 8 sites sont répartis à travers tout le pays, à moins d’une heure de la capitale.
-      À noter que chaque stade est équipé d’une technologie de climatisation pour lutter contre la chaleur étouffante de l’été qatarien, qui peut facilement dépasser 40 °C. Le pays a vécu une véritable course contre la montre, suivie de très près par les fans de football du monde entier, pour se préparer à accueillir cet événement mondial. La Coupe du monde de football 2022 est la 22ème édition de la Coupe du monde de football, compétition organisée par la FIFA et qui réunit les meilleures sélections nationales. Elle se déroule du 20 novembre au 18 décembre 2022, jour de la fête nationale du Qatar et une semaine avant Noël. La présence du Qatar, qualifié d'office en tant que pays hôte de la compétition, perpétue la tradition des équipes faisant leur apparition pour la première fois dans l'histoire de la Coupe du monde même s'il s'agit de la première fois qu'aucune nouvelle nation ne se qualifie sur le terrain.
-      </p>
+    <div class="mb-3">
+      <label for="exampleInputemail1" class="form-label">Email</label>
+      <input type="email" class="form-control rounded" id="exampleInputemail1">
     </div>
+    <div>
+      <label class="message" for="message">Votre message</label>
+      <textarea id="message" class="form-control mb-3 w-100 rounded" name="message" style="resize:none" placeholder="Bonjour, je vous contacte car...." required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Envoyer</button>
+  </form>
   </main>
 
   <footer>

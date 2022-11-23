@@ -37,4 +37,12 @@ h1{
     text-align: center;
     background-color: beige;
 }
+ .message{
+     display: flex;
+     flex-direction: column;
 
+ }
+
+ label {
+     margin-bottom: 10px;
+ }
