@@ -1,0 +1,18 @@
+
+.resume{
+    background-color: lightblue;
+    display: flex;
+    text-align: center;
+}
+
+header{
+    background-color: lightblue;
+}
+
+.copyright img{
+    height: 60px;
+    width: 60px;
+}
+
+
+
