@@ -1,17 +1,28 @@
 
 .resume{
-    background-color: lightblue;
+    background-color: beige;
     display: flex;
     text-align: center;
 }
 
 header{
-    background-color: lightblue;
+    background-color: rgb(136, 21, 21);
 }
 
 .copyright img{
     height: 60px;
     width: 60px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(136, 21, 21);
+}
+
+.attention{
+    color: beige;
 }
 
 
