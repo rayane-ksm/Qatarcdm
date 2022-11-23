@@ -50,7 +50,7 @@ h1{
      margin-bottom: 10px;
  }
 
- main {
+ .main-gall {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -61,10 +61,10 @@ h1{
      padding: 1.5rem;
      display: flex;
      flex-direction: column;
-  
+     gap: 1rem;
      justify-content: center;
      width: 85%;
- }
+ } 
 
 .stade-item {
     display: flex;
@@ -86,12 +86,11 @@ h1{
     padding: 1.5rem;
 }
 
-.box {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
 
 .stade h1 {
     border-radius: .50rem .50rem 0 0;
+}
+
+.accueilstade img {
+    height: 100%;
 }
