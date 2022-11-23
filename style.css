@@ -25,5 +25,16 @@ footer{
     color: beige;
 }
 
+h1{
+    background-color: rgb(172, 172, 172);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
 
+.resum_stade{
+    display: flex;
+    text-align: center;
+    background-color: beige;
+}
 
